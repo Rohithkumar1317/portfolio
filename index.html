@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Tech Graduate Portfolio</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+    <!-- Navigation Bar -->
+     <script src="script.js"></script   >
+    <nav class="navbar">
+        <div class="container sm-px-6 lg-px-8">
+            <div class="navbar-content">
+                <div class="flex-center">
+                    <a href="#home" class="navbar-brand">
+                        Chenna Rohith Kumar
+                    </a>
+                </div>
+                <div class="md-block">
+                    <div class="navbar-links">
+                        <a href="#home" class="nav-link">Home</a>
+                        <a href="#profile" class="nav-link">Profile</a>
+                        <a href="#skills" class="nav-link">Skills</a>
+                        <a href="#education" class="nav-link">Education</a>
+                        <a href="#current-project" class="nav-link">Current Project</a>
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <a href="#contact" class="nav-link">Contact Me</a>
+                    </div>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="-mr-2 md-hidden">
+                    <button type="button" class="mobile-menu-button" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <!-- Icon when menu is closed. -->
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <!-- Icon when menu is open. -->
+                        <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="md-hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm-px-3">
+                <a href="#home" class="block nav-link">Home</a>
+                <a href="#profile" class="block nav-link">Profile</a>
+                <a href="#skills" class="block nav-link">Skills</a>
+                <a href="#education" class="block nav-link">Education</a>
+                <a href="#current-project" class="block nav-link">Current Project</a>
+                <a href="#projects" class="block nav-link">Projects</a>
+                <a href="#contact" class="block nav-link">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-16">
+        <!-- Home Section -->
+        <section id="home" class="hero-section">
+            <div class="text-center container" style="max-width: 960px;">
+                <!-- IMPORTANT: Replace this placeholder URL with a public URL to your profile picture (e.g., from Imgur or GitHub Pages) -->
+                <img src="https://github.com/Rohithkumar1317/portfolio/blob/main/WhatsApp%20Image%202025-07-08%20at%2016.34.20_b2f4a4f4.jpg?raw=true" alt="Profile Picture" class="rounded-full mx-auto mb-6 border-4 border-white w-40 h-40 object-cover" style="box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);">
+                <h1 class="hero-title">Hi, I'm Chenna Rohith Kumar</h1>
+                <p class="hero-subtitle">A passionate B.Tech Graduate | Computer Science Engineering Enthusiast | Aspiring Software Engineer</p>
+                <a href="#projects" class="hero-button">
+                    View My Work
+                </a>
+            </div>
+        </section>
+
+        <!-- Profile Section -->
+        <section id="profile" class="py-20 px-4" style="background-color: #f9fafb;">
+            <div class="container" style="max-width: 1152px;">
+                <h2 class="section-title">About Me</h2>
+                <div class="card text-lg leading-relaxed">
+                    <p class="mb-4">
+                        I am a recent B.Tech graduate in Computer Science Engineering from Institute of Aeronautical Engineering [IARE], passionate about software development, machine learning, and problem-solving.
+                    <br><br>
+                        During my studies, I gained a strong foundation in data structures, algorithms, object-oriented programming, and web development. I thrive in dynamic environments and am always eager to learn new technologies and apply them to real-world challenges.
+                    <br><br>
+                        My goal is to contribute to innovative projects and grow as a Software Engineer.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20 px-4 bg-white">
+            <div class="container" style="max-width: 1152px;">
+                <h2 class="section-title">Skills</h2>
+                <div class="grid-cols-1 md-grid-cols-2 lg-grid-cols-3 gap-8">
+                    <div class="card">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Programming Languages</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>SQL</li>
+                            <li>C</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Web Technologies</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Data Structures & Algorithms</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Array</li>
+                            <li>Stack</li>
+                            <li>Queue</li>
+                            <li>Linked List</li>
+                            <li>Searching Algorithms</li>
+                            <li>Sorting Algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Tools & Concepts</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-1">
+                            <li>Basics of Image Processing</li>
+                            <li>Basics of Machine Learning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="py-20 px-4" style="background-color: #f9fafb;">
+            <div class="container" style="max-width: 1152px;">
+                <h2 class="section-title">Education</h2>
+                <div class="grid-cols-1 md-grid-cols-2 gap-8">
+                    <div class="card">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Institute of Aeronautical Engineering [IARE]</h3>
+                        <p class="text-lg text-gray-600 mb-1">Bachelor of Technology in Computer Science Engineering</p>
+                        <p class="text-md text-gray-500 mb-3">Nov [2021] - July [2025]</p> 
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>CGPA: 7.5/10</li>
+                            <li>Relevant Coursework: Data Structures & Algorithms, Programming Languages (Python, Java, C), Web Technologies (HTML, CSS, Javascript), Database Management Systems (SQL), Machine Learning, Image Processing.</li>
+                            <!-- <li>Awards/Honors: [Optional: e.g., Dean's List, Scholarship Recipient]</li> -->
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">TS Model School, Jr college</h3>
+                        <p class="text-lg text-gray-600 mb-1">Higher Secondary Education</p>
+                        <p class="text-md text-gray-500 mb-3">June [2019] - May [2021]</p> 
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Percentage/Grade: [65%]</li> <!-- Please update with your actual percentage/grade -->
+                            <li>Focus: [MPC]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Current Working Project Section -->
+        <section id="current-project" class="py-20 px-4 bg-white">
+            <div class="container" style="max-width: 1152px;">
+                <h2 class="section-title">Current Working Project</h2>
+                <div class="card">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">New Exciting Project (In Progress)</h3>
+                    <p class="text-lg text-gray-600 mb-3">Technologies: [e.g.AI/ML Libraries]</p>
+                    <p class="text-gray-700 mb-4">
+                       Iam currently want to work on a new project based on AI/Ml.
+                    </p>
+                    <div class="flex-center gap-4" style="justify-content: flex-start;">
+                        <a href="#" class="project-button project-button-primary" target="_blank" rel="noopener noreferrer">
+                            View Live Demo (currently unavailable)
+                        </a>
+                        <a href="#" class="project-button project-button-secondary" target="_blank" rel="noopener noreferrer">
+                            GitHub Repository
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 px-4" style="background-color: #f9fafb;">
+            <div class="container" style="max-width: 1152px;">
+                <h2 class="section-title">My Projects</h2>
+                <div class="grid-cols-1 md-grid-cols-2 lg-grid-cols-3 gap-8">
+                    <!-- Project 1 (from resume) -->
+                    <div class="card">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Optimized CNN for High Quality Image SR</h3>
+                        <p class="text-lg text-gray-600 mb-3">Technologies: Image Processing, Machine Learning, Python</p>
+                        <p class="text-gray-700 mb-4">
+                            Developed and optimized a CNN for high quality image super resolution, leveraging advanced architectures (e.g., ResNet, GAN). Achieved significant improvements in image quality surpassing traditional methods like SRCNN and SISR on datasets (e.g., DIV2k).
+                        </p>
+                        <div class="flex-center gap-3" style="justify-content: flex-start;">
+                            <!-- <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                                Live Demo
+                            </a> -->
+                            <a href="https://github.com/name/repo" class="project-link-secondary" target="_blank" rel="noopener noreferrer">
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 (from resume) -->
+                    <div class="card">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Icoder Programming Quiz</h3>
+                        <p class="text-lg text-gray-600 mb-3">Technologies: HTML, CSS, SQL, Xampp</p>
+                        <p class="text-gray-700 mb-4">
+                            Developed a website which is used to solve programming problems in three different levels (Easy, Medium, Hard). After completion, users can check their score and mistakes.
+                        </p>
+                        <div class="flex-center gap-3" style="justify-content: flex-start;">
+                            <!-- <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                                Live Demo
+                            </a> -->
+                            <a href="https://github.com/Rohithkumar1317/-iCoder-Programming-Quiz" class="project-link-secondary" target="_blank" rel="noopener noreferrer">
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 (from resume) -->
+                    <div class="card">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Alarm Clock with GUI</h3>
+                        <p class="text-lg text-gray-600 mb-3">Technologies: Python, Datetime and Time module (Tkinter)</p>
+                        <p class="text-gray-700 mb-4">
+                            A Python-based desktop application that allows users to set alarms through an interactive graphical interface using libraries like Tkinter. It demonstrates the integration of time-based functions with user-friendly controls for scheduling and managing alerts.
+                        </p>
+                        <div class="flex-center gap-3" style="justify-content: flex-start;">
+                            <!-- <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                                Live Demo
+                            </a> -->
+                            <a href="https://github.com/Rohithkumar1317/Alarm-Clock-with-GUI" class="project-link-secondary" target="_blank" rel="noopener noreferrer">
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Add more project cards as needed -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Me Section -->
+        <section id="contact" class="py-20 px-4 contact-section">
+            <div class="container" style="max-width: 768px; text-align: center;">
+                <h2 class="section-title" style="color: #fff;">Contact Me</h2>
+                <p class="text-lg mb-8">
+                    Feel free to reach out for any collaborations or just to say hello!
+                </p>
+                <div class="flex-col flex-center space-y-4">
+                    <a href="mailto:rohithkumarchenna@gmail.com" class="contact-link">
+                        <svg class="contact-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                        rohithkumarchenna@gmail.com
+                    </a>
+                    <a href="https://linkedin.com/in/chennarohithkumar" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <svg class="contact-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.3 3H3.7A.7.7 0 003 3.7v12.6A.7.7 0 003.7 17h12.6a.7.7 0 00.7-.7V3.7A.7.7 0 0016.3 3zM6 14.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5v-7a.5.5 0 01.5-.5h1a.5.5 0 01.5.5v7zM5.5 6.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM14.5 14.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5v-3.5a1.5 1.5 0 00-3 0v3.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5v-7a.5.5 0 01.5-.5h1a.5.5 0 01.5.5v.914a3.998 3.998 0 003.5-1.414.5.5 0 01.5-.5h.5a.5.5 0 01.5.5v7z" clip-rule="evenodd"></path></svg>
+                        LinkedIn Profile
+                    </a>
+                    <a href="https://github.com/rohithkumar1317" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <svg class="contact-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 0C4.477 0 0 4.477 0 10c0 4.418 2.866 8.165 6.839 9.488.5.092.682-.217.682-.483 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.34-3.369-1.34-.455-1.159-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.004.07 1.532 1.03 1.532 1.03.89 1.528 2.336 1.087 2.904.832.09-.648.35-1.087.636-1.338-2.22-.253-4.555-1.11-4.555-4.942 0-1.09.39-1.984 1.03-2.682-.104-.253-.448-1.27.098-2.65 0 0 .84-.27 2.75 1.025A9.483 9.483 0 0110 4.5c.85.006 1.705.115 2.5.338 1.909-1.295 2.747-1.025 2.747-1.025.546 1.38.202 2.397.098 2.65.64.698 1.03 1.592 1.03 2.682 0 3.843-2.339 4.685-4.566 4.935.359.308.678.917.678 1.854 0 1.338-.012 2.419-.012 2.75 0 .269.18.579.688.482C17.14 18.16 20 14.418 20 10c0-5.523-4.477-10-10-10z" clip-rule="evenodd"></path></svg>
+                        GitHub Profile
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Chenna Rohith Kumar. All rights reserved.</p>
+            <p>Built with ❤️ and piece of code magic.</p>
+        </footer>
+    </main>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
